@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="survay.css">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="wrapper">
+        <div class="container">
+            <section class="left">
+                <div class="img-container">
+                        <img src="viktor-theo-1142311-unsplash.jpg" alt="">
+                </div>
+            </section>
+            <section class="right">
+                <div class="right-box">
+                <header class="head-container">
+                    <h1 id="title">car dealer</h1>
+                    <p id="description">let his know which car you would i like to buy ?</p>
+                </header>
+                <div class="form-container">
+                    <form action="">
+                            <div class="user-info">
+                                        <table>
+                                            <tr>
+                                                <th class="table-1" id="info" colspan="2"><input  class="enter-info" type="text" placeholder="Enter your info" disabled></th>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-1" id="name" colspan="2"><input class="enter-info" type="text" placeholder="Name"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table-1" id="email"><input class="enter-info" type="email" placeholder="eg. example@email.com" required></td>
+                                                <td class="table-1" id="number"><input class="enter-info" type="number" placeholder="Age" required min="18" max="50"></td>
+                                            </tr>
+                                        </table>
+                            </div>
+                            <div class="car-info">
+                                    <table>
+                                        <tr>
+                                            <th id="label-1" class="table-2" colspan="3"><label class="label-info" for="">car info</label></th>
+                                        </tr>
+                                        <tr>
+                                            <td id="car-input" class="table-2" colspan="3">
+                                                <select id="select-option" class="info-of-car" name="car" id="dropdown">
+                                                    <option class="option-class" value="Select your car" selected disabled>Select your car</option>
+                                                    <option class="option-class" value="car 1">BMW</option>
+                                                    <option class="option-class" value="car 2">Bugati</option>
+                                                    <option class="option-class" value="car 3">VW</option>
+                                                    <option class="option-class" value="car 4">tesla</option>
+                                                </select>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                                <td id="car-info-2" class="table-2" colspan="3"><label class="label-info" for="">Select your car color</label></td>
+                                        </tr>
+                                        <tr class="table-radio">
+                                                <td class="table-2"><input class="info-of-car" type="radio" name="color" value="black"> Black</td>
+                                                <td class="table-2"><input class="info-of-car" type="radio" name="color" value="white"> White</td>
+                                                <td class="table-2"><input class="info-of-car" type="radio" name="color" value="gray"> Gray</td>
+                                        </tr>
+                                    </table>
+                                    
+                            </div>
+                            <div class="check-boxs">
+                                <div>
+                                    <label for="">Quality in car<br>you want:</label>
+                                    <ul>
+                                        <li><input type="checkbox" name="" value="">quality1</li>
+                                        <li><input type="checkbox" name="" value="">quality2</li>
+                                        <li><input type="checkbox" name="" value="">quality3</li>
+                                        <li><input type="checkbox" name="" value="">quality4</li>
+                                        <li><input type="checkbox" name="" value="">quality5</li>
+                                        <li><input type="checkbox" name="" value="">quality6</li>
+                                        <li><input type="checkbox" name="" value="">quality7</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <textarea cols="20" rows="3"></textarea>
+                            </div>
+                            <div class="submit-button">
+                                <input type="submit" name="Sumbit">
+                            </div>
+                        </form>    
+                </div>
+                </div>
+            </section>
+       </div> 
+    </main>
+</body>
+</html>
