@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satisfy', cursive;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(jon-tyson-1578663-unsplash.jpg);
+    background-position: center;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width: 100%;
+}
+
+.right {
+    width: 100%;
+}
+
+.img-container {
+    background-color:brown;
+    height: 550px;
+    width: 100%;
+    margin: 20px 10px 20px 10px;
+}
+
+.img-container > img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;
+}
+
+.right-box {
+    background-color:pink;
+    height: 550px;
+    width: 575px;
+    margin: 20px 10px 20px 10px;
+    overflow: scroll;
+    padding: 10px;
+    text-align: center;
+}
+
+.head-container > #title {
+    font-size: 40px;
+    margin: 15px auto;
+}
+
+.head-container > #description {
+    font-size: 20px;
+}
+
+.user-info {    
+    border: 1px solid rgb(226, 226, 226);
+    margin: 0 30px;
+}
+
+.user-info > table ,th ,td {
+    border : 1px solid rgb(226, 226, 226) ;
+    border-collapse: collapse;
+}
+
+.user-info > table {
+        width: 100%;
+}
+
+.table-1 > input {
+    text-align: center;
+    width: 100%;
+}
+
+.enter-info {
+    border: none ;
+    padding: 10px 50px; 
+    background: transparent;
+    
+}
+
+.car-info > table ,th ,td {
+    border : 1px solid rgb(226, 226, 226) ;
+    border-collapse: collapse;
+}
+
+.car-info {    
+    border: 1px solid rgb(226, 226, 226);
+    margin: 10px 30px;
+}
+
+.info-of-car {
+    border: none ;
+    padding: 10px 50px; 
+    background: transparent;
+}
+
+.label-info {
+    display: block;
+    padding: 10px 50px;
+}
+
+#select-option {
+    padding: 10px;
+}
+
+.option-class {
+    background: pink;
+    text-align: center;
+}
+
+.table-2  {
+    text-align: center;
+    width: 100%;
+}
+
+.info-of-car {
+    width: 150px;
+}
+
+.check-boxs > ul{
+    list-style-type: none;
+}
+
+.check-boxs  {
+    width: 100%;
+}
+
+.check-boxs > label {
+    width: 50%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* .wrapper {
+    background-image: url(pawel-czerwinski-1574310-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1366px;
+    height: 625px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.left {
+    background-color: black;
+    height: 100px;
+}
+
+.img-container > img {
+    
+    height: 450px;
+}
+
+.right-box {
+    height: 450px;
+    overflow: scroll;
+} */
